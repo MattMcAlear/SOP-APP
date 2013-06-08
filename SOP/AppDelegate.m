@@ -7,12 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "MasterViewController.h"
+#import "DetailViewController.h"
 
 @implementation AppDelegate
 
+@synthesize window;
+@synthesize myVc1;
+@synthesize myVc2;
+@synthesize myVc3;
+@synthesize myVc4;
+@synthesize myVc5;
+@synthesize myVc6;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
     return YES;
 }
 							
